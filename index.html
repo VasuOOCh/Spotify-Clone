@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containerBox">
+        <div class="container" style="flex: 1 2.5 auto;">
+            <div class="navMain">
+                <div class="navMainItem">
+                    <div class="item"><img src="spotify-logo-png-7053.png" alt="#" id="logoMain"></div>
+                </div>
+                <div class="navMainItem">
+                    <div class="item"><i class="fa-solid fa-house"></i></div>
+                    <div class="item"><span>Home</span></div>
+                </div>
+                <div class="navMainItem">
+                    <div class="item"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="item"><span>Search</span></div>
+                </div>
+                
+            </div>
+            <div class="navMain">
+                <div class="libraryItemBox">
+                    <div class="libItem"><i class="fa fa-bookmark" aria-hidden="true"></i></div>
+                    <div class="libItem"><span>Your Library</span></div>
+                    <!-- <div class="libItem rightItem"> -->
+                        <div class="libItem leftItem" ><i class="fa fa-plus" aria-hidden="true"></i></div>
+                        <div class="libItem"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                    <!-- </div> -->
+                </div>
+        
+                <div class="libraryItemBox">
+                    <div class="libItem playlistBox"><span>Playlist</span></div>
+                </div>
+        
+                <div class="libraryItemBox">
+                    <div class="libItem">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="libItem recents">
+                        <span>Recents</span>
+                        <i class="fa fa-list" aria-hidden="true"></i>
+                    </div>
+                </div>
+    
+                <div class="libraryItemBox">
+                    <div class="libItem playlistName">
+                        <div class="libItem1"><i class="fa fa-soundcloud" aria-hidden="true"></i></div>
+                    <div class="libItem1"><Span>Playlist 1</Span></div>
+                    </div>
+                </div>
+    
+                <!-- <div class="libraryItemBox">
+                    <div class="libItem playlistName">
+                        <div class="libItem1"><i class="fa fa-soundcloud" aria-hidden="true"></i></div>
+                        <div class="libItem1"><Span>Playlist 2</Span></div>
+                    </div>
+                </div> -->
+    
+                <div class="libraryItemBox likedSongs">
+                    <div class="libItem playlistName">
+                        <div class="libItem1"><i class="fa fa-soundcloud" aria-hidden="true"></i></div>
+                    <div class="libItem1"><Span>Liked Songs</Span></div>
+                    </div>
+                    <div class="likedSongsList">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container containRight" style="flex: 1 1 auto; position: relative;">
+
+            <div class="userInfo">
+                <span>Vasu Choudhari</span>
+                <span>Premium user</span>
+            </div>
+
+
+            <div class="rightMainList">
+                <button  class="topItem topIcon previous" style="flex-shrink: 1;"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>
+                <button class="topItem topIcon forward" style="flex-shrink: 1;"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+                <div class="topItem" style="background-color: white; color: black; border-radius: 20px; font-weight: bold; flex-shrink: 0.5;"><span>Explore Premium</span></div>
+                <div class="topItem" style="background-color: black; border-radius: 20px; font-weight: bold; flex-shrink: 0.5;">
+                    <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+                    <span>Install App</span>
+                </div>
+                <div class="topItem topIcon" style="background-color: black; border-radius: 20px; flex-shrink: 1;"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+                <div class="topItem topIcon" style="background-color: black; border-radius: 20px; flex-shrink: 1;"><label for="user"><i class="fa fa-user-circle" aria-hidden="true"></i></label>
+                    <input type="checkbox" name="user" id="user" style="display: none;">
+                </div>
+            </div>
+
+            <div class="rightMainList">
+                <div class="greet">
+                    <Span>Good Evening</Span>
+                </div>
+            </div>
+
+            <div class="songListBox">
+                <div class="songBox">
+                    <span class="songNum songItem">1</span>
+                    <div class="songItem">
+                        <img src="Into your arms.jpg" alt="#" height="40px">
+                    </div>
+                    <span class="songItem">Into Your Arms</span> 
+                    <i class="fa fa-pause songItem pauseBtn" aria-hidden="true"></i>
+                    <i class="fa fa-play songItem playBtn" aria-hidden="true"></i>
+                    <i class="fa fa-heart songItem heart" aria-hidden="true"></i>
+                    <audio>
+                        <source src="Into Your Arms_320(PagalWorld.com.pe).mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+                <div class="songBox">
+                    <span class="songNum songItem">2</span>
+                    <div class="songItem">
+                        <img src="dildara cover.jpg" alt="#" height="40px">
+                    </div>
+                    <span class="songItem">Dildara</span>
+                    <!-- <i class="fa fa-heart songItem heart" aria-hidden="true"></i> -->
+                    <i class="fa fa-pause songItem pauseBtn" aria-hidden="true"></i>
+                    <i class="fa fa-play songItem playBtn" aria-hidden="true"></i>
+                    <i class="fa fa-heart songItem heart" aria-hidden="true"></i>
+                    <audio>
+                        <source src="02 - Dildaara (Stand By Me).mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+                <div class="songBox">
+                    <span class="songNum songItem">3</span>
+                    <div class="songItem">
+                        <img src="another love.jpg" alt="#" height="40px">
+                    </div>
+                    <span class="songItem">Another Love (Slowed)</span>
+                    <!-- <i class="fa fa-heart songItem heart" aria-hidden="true"></i> -->
+                    <i class="fa fa-pause songItem pauseBtn" aria-hidden="true"></i>
+                    <i class="fa fa-play songItem playBtn" aria-hidden="true"></i>
+                    <i class="fa fa-heart songItem heart" aria-hidden="true"></i>
+                    <audio>
+                        <source src="Another-Love-Slowed(PagalWorld).mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+                <div class="songBox">
+                    <span class="songNum songItem">4</span>
+                    <div class="songItem">
+                        <img src="dildara cover.jpg" alt="#" height="40px">
+                    </div>
+                    <span class="songItem">Bhare Naina</span>
+                    <!-- <i class="fa fa-heart songItem heart" aria-hidden="true"></i> -->
+                    <i class="fa fa-pause songItem pauseBtn" aria-hidden="true"></i>
+                    <i class="fa fa-play songItem playBtn" aria-hidden="true"></i>
+                    <i class="fa fa-heart songItem heart" aria-hidden="true"></i>
+                    <audio>
+                        <source src="04 - Bhare Naina.mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+                <div class="songBox">
+                    <span class="songNum songItem">5</span>
+                    <div class="songItem">
+                        <img src="mann mera.jpg" alt="#" height="40px">
+                    </div>
+                    <span class="songItem">Mann Mera</span>
+                    <!-- <i class="fa fa-heart songItem heart" aria-hidden="true"></i> -->
+                    <i class="fa fa-pause songItem pauseBtn" aria-hidden="true"></i>
+                    <i class="fa fa-play songItem playBtn" aria-hidden="true"></i>
+                    <i class="fa fa-heart songItem heart" aria-hidden="true"></i>
+                    <audio>
+                        <source src="Mann-Mera.mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="containerBottom">
+        <div class="playItem">
+            <i class="fa fa-music" aria-hidden="true"></i>
+        </div>
+        <div class="playItem">
+            <span>Playing</span>
+        </div>
+        <div class="playItem">
+            <img class="currentSongImg" alt="" height="50px" style="border-radius: 50%;">
+        </div>
+        <div class="playItem">
+            <span class="currentSong"></span>
+        </div>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/b51a57a65a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
